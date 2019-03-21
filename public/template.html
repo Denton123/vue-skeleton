@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico">
+  <title>医生工作台</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but yz_doctors doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app">
+    <!--vue-ssr-outlet-->
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
+<!-- 新建template.html文件的目的是为了保存模板文件的干净，因为每次完成骨架屏的注入后，index.html文件中的vue-ssr-outlet占位符已经被骨架屏代码所替代，再次修改骨架屏就无法完成骨架屏的注入，所以在注入骨架屏时先用template.html文件中的内容替换index.html文件，避免了每次修改骨架屏时还要手动修改index.html -->
