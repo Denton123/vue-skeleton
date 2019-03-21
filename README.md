@@ -27,3 +27,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 步骤
+#### 新建template.html，代码和index.html一样，只是在div#app里面添加<!--vue-ssr-outlet-->
+#### 新建Skeleton.vue和skeleton.entry.js
+#### 新建webpack.skeleton.conf.js打包skeleton.entry.js为skeleton.json
+#### 新建skeleton.js将骨架屏注入index.html
